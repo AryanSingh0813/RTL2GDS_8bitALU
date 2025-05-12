@@ -1,0 +1,35 @@
+Startpoint: in2[3] (input port)
+Endpoint: result[14] (output port)
+Path Group: unconstrained
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   5.00    5.00 ^ input external delay
+   0.00    5.00 ^ in2[3] (in)
+   0.02    5.02 v _0737_/ZN (AOI22_X1)
+   0.08    5.11 v _0738_/ZN (OR3_X1)
+   0.04    5.14 v _0780_/ZN (AND3_X1)
+   0.07    5.21 v _0789_/ZN (OR3_X1)
+   0.04    5.25 v _0822_/ZN (AND3_X1)
+   0.08    5.33 v _0825_/ZN (OR3_X1)
+   0.04    5.36 v _0826_/ZN (AND2_X1)
+   0.05    5.42 v _0847_/Z (XOR2_X1)
+   0.06    5.47 v _0867_/Z (XOR2_X1)
+   0.05    5.52 ^ _0868_/ZN (AOI21_X1)
+   0.02    5.54 v _0871_/ZN (NOR3_X1)
+   0.10    5.64 ^ _0873_/ZN (OAI33_X1)
+   0.02    5.66 v _0875_/ZN (NAND2_X1)
+   0.05    5.71 ^ _0876_/ZN (AOI21_X1)
+   0.03    5.74 v _0877_/ZN (OAI21_X1)
+   0.05    5.79 ^ _0879_/ZN (AOI21_X1)
+   0.03    5.81 v _0881_/ZN (OAI21_X1)
+   0.04    5.85 ^ _0890_/ZN (AOI21_X1)
+   0.01    5.86 v _0891_/ZN (NOR3_X1)
+   0.05    5.91 v _0892_/ZN (OR2_X1)
+   0.00    5.91 v result[14] (out)
+           5.91   data arrival time
+---------------------------------------------------------
+(Path is unconstrained)
+
+
