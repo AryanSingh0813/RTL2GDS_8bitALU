@@ -1,0 +1,2 @@
+# RTL2GDS_8bitALU
+Did the complete RTL to GDS flow for 8 bit ALU capable of performing Arithmetic Operations, Shift and Rotate operations, Bitwise Logic operations and lastly the Comparison and selection operation.This flow was done using opens source tool called "OpenRoad" and the technology node used is 45nm.The RTL design and verification was done on XIlinx Vivado,Synthesis from RTL to gate level netlist was done another open source tool "Yosys".Did STA,Floorplanning and placement,CTS and finally succesfully routed.  
